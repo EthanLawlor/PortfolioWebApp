@@ -1,0 +1,30 @@
+{
+    "projects": [
+      {
+        "title": "Automated Robotic Arm",
+        "description": "Designed and implemented an automated robotic arm capable of precise movements and object manipulation.",
+        "image": "images/robotic-arm.jpg"
+      },
+      {
+        "title": "Autonomous Drone",
+        "description": "Developed an autonomous drone equipped with computer vision and obstacle avoidance capabilities.",
+        "image": "images/autonomous-drone.jpg"
+      },
+      {
+        "title": "Gesture-Controlled Robot",
+        "description": "Built a gesture-controlled robot that responds to hand gestures for navigation and task execution.",
+        "image": "images/gesture-robot.jpg"
+      },
+      {
+        "title": "Smart Home Automation System",
+        "description": "Created a smart home automation system that integrates various electronic devices and enables remote control.",
+        "image": "images/smart-home.jpg"
+      },
+      {
+        "title": "Robotic Exoskeleton",
+        "description": "Designed a robotic exoskeleton for rehabilitation purposes, providing assistance and support to patients.",
+        "image": "images/robotic-exoskeleton.jpg"
+      }
+    ]
+  }
+  

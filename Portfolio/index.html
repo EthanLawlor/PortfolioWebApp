@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mechatronic Engineering Projects</title>
+  <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file -->
+</head>
+<body>
+  <header>
+    <h1>Mechatronic Engineering Projects</h1>
+    <h2>Exploring the Intersection of Mechanics, Electronics, and Control Systems</h2>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#" onclick="showProjects()">Projects</a></li>
+      <li><a href="#" onclick="showAbout()">About</a></li>
+      <li><a href="#" onclick="showContact()">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section id="projects" style="display: none;">
+    <h2>Projects</h2>
+    <div id="projects-container"></div> <!-- Add this container element -->
+  </section>
+
+  <section id="about" style="display: none;">
+    <h2>About Me</h2>
+    <p>Welcome to my portfolio website showcasing my Mechatronic Engineering projects. I am a passionate engineer with expertise in designing and implementing innovative solutions.</p>
+    <p>I specialize in combining mechanical, electrical, and software engineering to create advanced mechatronic systems that push the boundaries of technology.</p>
+  </section>
+
+  <section id="contact" style="display: none;">
+    <h2>Contact Me</h2>
+    <p>If you have any inquiries or would like to discuss potential projects, please feel free to contact me:</p>
+    <form action="contact-form-handler.php" method="POST">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" required></textarea>
+
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2023 Ethan Lawlor - Mechatronic Engineering Projects. All rights reserved.</p>
+  </footer>
+  
+</body>
+<script src="script.js" defer></script>
+</html>
